@@ -76,7 +76,7 @@
     - Password: `password`
 
 
-## API DocumentationAPI Documentation
+## API Documentation
 
 ### Class Endpoints
 - *POST /classes*: Create a new class.
