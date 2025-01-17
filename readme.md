@@ -183,6 +183,37 @@
 }
 ```
 
+- *GET /api/bookings*: Get Booking Details
+
+
+- *Possible Responses*:
+
+  - *201 Created*: Fetched Booking Details Successfully
+
+```json
+{
+    "memberName": "John Doe",
+    "className": "Yoga Class",
+    "classStartTime": "08:00:00",
+    "bookingDate": "2025-01-01",
+    "participationDate": "2025-01-02"
+  },
+  {
+    "memberName": "Jane Smith",
+    "className": "HIIT Workout",
+    "classStartTime": "10:00:00",
+    "bookingDate": "2025-01-03",
+    "participationDate": "2025-03-05"
+  },
+  {
+    "memberName": "Mike Jones",
+    "className": "Meditation Session",
+    "classStartTime": "06:30:00",
+    "bookingDate": "2025-01-04",
+    "participationDate": "2025-04-03"
+  }
+```
+
 
 
 ## Database Configuration
