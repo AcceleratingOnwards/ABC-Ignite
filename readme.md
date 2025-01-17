@@ -153,7 +153,7 @@
 
 
 - *Possible Responses*:
-	- *200 OK*: If the member is updated successfully.
+	- *200 OK*: members fetched successfully.
 
 ```json
 {
