@@ -136,11 +136,11 @@
 ```
 
 
-•	GET /api/members/{id}: Update an existing member by ID.
+•	GET /api/members/{id}: get an existing member by ID.
 
 
 - *Possible Responses*:
-	- *200 OK*: If the member is updated successfully.
+	- *200 OK*: If the member is fetched successfully.
 
 ```json
 {
