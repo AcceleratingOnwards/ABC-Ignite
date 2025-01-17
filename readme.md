@@ -52,7 +52,7 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/AcceleratingOnwards/ABC-Ignite
+   git clone https://github.com/AcceleratingOnwards/ABC-Ignite.git
    cd ABC-Ignite
    ```
 
