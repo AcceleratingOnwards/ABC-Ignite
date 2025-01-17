@@ -98,7 +98,7 @@
 
 
 - *GET /classes*: Retrieve all classes.
-	 - *Sample request body*:
+	 - *Sample response body*:
 ```json
 {
   "id": 1,
@@ -136,15 +136,7 @@
 ```
 
 
-•	PUT /api/members/{id}: Update an existing member by ID.
-•	Sample request body:
-
-```json
-{
-"name": "Jane Smith",
-"email": "new.jane.smith@example.com"
-}
-```
+•	GET /api/members/{id}: Update an existing member by ID.
 
 
 - *Possible Responses*:
@@ -152,9 +144,22 @@
 
 ```json
 {
-"id": 2,
-"name": "Jane Smith",
-"email": "new.jane.smith@example.com"
+  "id": 1,
+  "name": "John Doe",
+  "email": "john.doe@example.com"
+}
+```
+•	GET /api/members: Get all members
+
+
+- *Possible Responses*:
+	- *200 OK*: If the member is updated successfully.
+
+```json
+{
+  "id": 1,
+  "name": "John Doe",
+  "email": "john.doe@example.com"
 }
 ```
 
@@ -163,22 +168,6 @@
 ### Booking Endpoints
 - *POST /api/bookings*: Create a new booking.
 
-- *sample request body*:
-```json
-{
-"memberName": "Alice",
-"className": "Pilates",
-"classStartTime": {
-"hour": 6,
-"minute": 30,
-"second": 0,
-"nano": 0
-},
-"bookingDate": "2025-01-17",
-"participationDate": "2025-01-17"
-}
-```
-
 
 - *Possible Responses*:
 
@@ -186,54 +175,15 @@
 
 ```json
 {
-"memberName": "Alice",
-"className": "Pilates",
-"classStartTime": {
-"hour": 6,
-"minute": 30,
-"second": 0,
-"nano": 0
-},
-"bookingDate": "2025-01-17",
-"participationDate": "2025-01-17"
+  "memberName": "John Doe",
+  "className": "Yoga Class",
+  "classStartTime": "08:00:00",
+  "bookingDate": "2025-01-17",
+  "participationDate": "2025-01-03"
 }
 ```
 
 
-- * PUT /api/bookings/{id}*: Update an existing booking by ID.
-	- *Sample request body*:
-```json
-{
-"memberName": "Alice",
-"className": "Yoga",
-"classStartTime": {
-"hour": 7,
-"minute": 0,
-"second": 0,
-"nano": 0
-},
-"bookingDate": "2025-01-18",
-"participationDate": "2025-01-18"
-}
-```
-
-
-- *Possible Responses*:
-	- *200 OK*: If the booking is updated successfully.
-```json
-{
-"memberName": "Alice",
-"className": "Yoga",
-"classStartTime": {
-"hour": 7,
-"minute": 0,
-"second": 0,
-"nano": 0
-},
-"bookingDate": "2025-01-18",
-"participationDate": "2025-01-18"
-}
-```
 
 ## Database Configuration
 
