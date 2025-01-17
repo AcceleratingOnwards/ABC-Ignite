@@ -227,7 +227,6 @@ The project uses H2 as an in-memory database for simplicity and ease of testing.
     •	Start date must be before or equal to the end date.
     •	End date must be in the future.
     •	Capacity: Must be a positive integer.
-    •	Class Overlap: Only one class is allowed per day.
 ## Code_coverage
 ![Code_coverage](images/test_coverage1.jpeg)
 ![Code_coverage](images/test_coverage2.jpeg)
