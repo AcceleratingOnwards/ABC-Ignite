@@ -52,8 +52,8 @@
 
 1. Clone the repository:
    ```bash
-   git clone 
-   cd abcignite
+   git clone https://github.com/AcceleratingOnwards/ABC-Ignite
+   cd ABC-Ignite
    ```
 
 2. Build the project:
